@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Portfolio - Ryan Cahill</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- NAV -->
+    <nav class="nav">
+      <div class="container nav-inner">
+        <div class="brand">Ryan Cahill</div>
+
+        <ul class="nav-links" role="navigation" aria-label="Primary">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+
+        <div class="right">
+          <label class="toggle" for="theme-toggle" title="Toggle theme">
+            <span id="theme-label">Light</span>
+            <button
+              id="theme-toggle"
+              class="switch"
+              aria-label="Toggle theme"
+              type="button"
+            >
+              <span class="knob" aria-hidden="true"></span>
+            </button>
+          </label>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HOME / HERO -->
+    <section id="home" class="content">
+      <div class="container">
+        <div class="hero">
+          <div class="headshot">
+            <!-- Replace with your headshot -->
+            <img src="images/RyanImage.jpg" alt="Headshot placeholder" />
+          </div>
+          <div class="title">
+            <h1>Hi, I’m Ryan</h1>
+            <h2>
+              Computer Science Student • Full-Stack Developer • Data Analytics
+            </h2>
+            <p>
+              I’m a Computer Science student at Marist University graduating in
+              the Class of 2026 focused on building user-friendly web
+              applications and turning data into clear insights. I’ve worked in
+              healthcare analytics and full-stack development, and I love
+              shipping practical tools that solve real problems.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="spacer s1" aria-hidden="true"></div>
+
+    <!-- ABOUT -->
+    <section id="about" class="content">
+      <div class="container">
+        <h3 class="section-title">About</h3>
+        <p class="section-sub">A concise overview, then a deeper dive below.</p>
+
+        <div class="cards">
+          <article class="card">
+            <div class="logo">
+              <!-- Replace with a tiny logo if you want -->
+              <img src="images/computerIcon.jpg" alt="Icon" />
+            </div>
+            <div>
+              <h4>Quick Bio</h4>
+              <p>
+                Marist CS student (Software Development concentration) with
+                minors in IT, Information Systems, and Games & Emerging Media.
+              </p>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="logo">
+              <!-- Replace with a tiny logo if you want -->
+              <img src="images/techstackicon.png" alt="Icon" />
+            </div>
+            <div>
+              <h4>What I’m Into</h4>
+              <p>
+                Full-stack development, database-backed systems, data analysis.
+                Typical stack: React, Node, SQL, PostgresSQL, TypeScript,
+                JavaScript and REST APIs.
+              </p>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="logo">
+              <!-- Replace with a tiny logo if you want -->
+              <img src="images/dataIcon.png" alt="Icon" />
+            </div>
+            <div>
+              <h4>Interests & Experience</h4>
+              <p>
+                I’m interested in building practical tools that make data more
+                useful. My background in healthcare analytics helped me develop
+                strong skills in automation, accuracy, and team-based problem
+                solving.
+              </p>
+            </div>
+          </article>
+        </div>
+
+        <div style="height: 18px"></div>
+
+        <div class="card" style="grid-template-columns: 1fr">
+          <h4 style="margin: 0 0 6px">Detailed About</h4>
+          <p style="margin: 0; color: var(--muted); line-height: 1.7">
+            I’m a Computer Science student at Marist University with experience
+            in software development and analytics. Through internships and
+            projects, I’ve worked with tools like SQL, Alteryx, and cloud
+            platforms to improve data workflows and build full-stack web
+            applications with secure authentication and solid database design. I
+            enjoy turning complex ideas into practical, easy-to-use solutions
+            and building systems that actually work for the people using them.
+            Outside of class, I like staying involved and taking on leadership
+            roles. I studied abroad in Ireland last year, which pushed me to
+            adapt quickly and see problems from a different perspective. I was
+            also a member of the men’s volleyball team at Marist and later
+            served as the team’s manager and treasurer, where I handled
+            organization, budgeting, and behind-the-scenes operations. Whether
+            I’m working on a project or supporting a team, I value
+            collaboration, accountability, and continuous learning.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="spacer s1" aria-hidden="true"></div>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="content">
+      <div class="container">
+        <h3 class="section-title">Experience</h3>
+        <p class="section-sub">My professional and academic experience.</p>
+
+        <div class="cards">
+          <article class="card">
+            <div class="logo">
+              <!-- Replace with a tiny company logo if you want -->
+              <img src="images/cigna-evernorth.jpg" alt="Company Logo" />
+            </div>
+            <div>
+              <h4>Data Analytics Intern @ Evernorth (Cigna)</h4>
+              <p>
+                Automated and validated large datasets using Alteryx and
+                internal databases, improving reporting speed and accuracy for
+                client-facing analytics packages.
+              </p>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="logo">
+              <!-- Replace with a tiny company logo if you want -->
+              <img src="images/Marist.png" alt="Company Logo" />
+            </div>
+            <div>
+              <h4>Tutor @ Academic Learning Center:</h4>
+              <p>
+                Provided one-on-one tutoring across multiple subjects, adapting
+                explanations to different learning styles and helping students
+                build confidence and consistency.
+              </p>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="logo">
+              <!-- Replace with a tiny company logo if you want -->
+              <img src="images/bohler.png" alt="Company Logo" />
+            </div>
+            <div>
+              <h4>Employee @ Bohler Engineering:</h4>
+              <p>
+                Managed high-volume technical printing workflows for engineering
+                documents, coordinating with teams to deliver accurate,
+                deadline-driven outputs.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <div class="spacer s1" aria-hidden="true"></div>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="content">
+      <div class="container">
+        <h3 class="section-title">Projects</h3>
+        <p class="section-sub">
+          Selected work from classes and personal projects. (More on GitHub!)
+        </p>
+
+        <div class="projects-stack">
+          <!-- Project 1 -->
+          <article class="project-card">
+            <div class="project-info">
+              <h4 class="project-title">MITRE Mapper</h4>
+              <p class="project-meta">Capstone Project • Fall 2025</p>
+              <p class="project-desc">
+                Converted a console-based vulnerability prioritization tool into
+                a web dashboard and enhanced CVE-to-threat mapping with RAG
+                techniques to improve security decision-making.
+              </p>
+              <div class="project-tags">
+                <span>AI/RAG</span><span>Security</span><span>Full-Stack</span>
+              </div>
+              <!-- Optional button -->
+              <!-- <a class="project-cta" href="#" target="_blank" rel="noopener">View Project</a> -->
+            </div>
+
+            <a class="project-media" href="#" aria-label="Open MITRE Mapper">
+              <img
+                src="images/MITREmapper.png.jpg"
+                alt="MITRE Mapper preview"
+              />
+            </a>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card reverse">
+            <div class="project-info">
+              <h4 class="project-title">AllergyBites</h4>
+              <p class="project-meta">
+                Full-Stack Website • Jan 2025 – May 2025
+              </p>
+              <p class="project-desc">
+                A full-stack web application that helps users with dietary
+                restrictions (e.g. vegan, gluten-free, dairy-free) find recipes
+                and restaurants tailored to their needs.
+              </p>
+              <div class="project-tags">
+                <span>Node.js</span><span>Express</span><span>MongoDB</span
+                ><span>React</span>
+              </div>
+            </div>
+
+            <a class="project-media" href="#" aria-label="Open AllergyBites">
+              <img src="images/AllergyBites.png" alt="AllergyBites preview" />
+            </a>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card">
+            <div class="project-info">
+              <h4 class="project-title">Analytics Automation</h4>
+              <p class="project-meta">Data Workflows • Summer 2025</p>
+              <p class="project-desc">
+                Automated manual reporting steps and verified large datasets to
+                increase delivery speed and improve accuracy in client-facing
+                analytics packages.
+              </p>
+              <div class="project-tags">
+                <span>Alteryx</span><span>SQL</span><span>Data</span>
+              </div>
+            </div>
+
+            <a
+              class="project-media"
+              href="#"
+              aria-label="Open Analytics Automation"
+            >
+              <img
+                src="images/Evernorthlogo.jpg"
+                alt="Analytics Automation preview"
+              />
+            </a>
+          </article>
+          <!-- Project 4 -->
+          <article class="project-card">
+            <div class="project-info">
+              <h4 class="project-title">Tsiram Virtual 6502 Processor</h4>
+              <p class="project-meta">
+                Computer Organization and Architecture Project • Fall 2025
+              </p>
+              <p class="project-desc">
+                The system accepts 6502 op-code programs and runs them through a
+                simulated CPU pipeline, including fetch, decode, execute,
+                write-back, and interrupt handling stages. This project deepened
+                my understanding of low-level processor design, instruction
+                sets, and the relationship between hardware architecture and
+                software.
+              </p>
+              <div class="project-tags">
+                <span>TypeScript</span><span>Node.js</span
+                ><span>6502 Instruction Set</span>
+              </div>
+            </div>
+
+            <a
+              class="project-media"
+              href="#"
+              aria-label="Open Analytics Automation"
+            >
+              <img
+                src="images/Tsiram.jpeg"
+                alt="Tsiram Virtual 6502 Processor preview"
+              />
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <div class="spacer s1" aria-hidden="true"></div>
+
+    <!-- CONTACT -->
+    <section id="contact" class="content">
+      <div class="container">
+        <h3 class="section-title">Contact</h3>
+        <p class="section-sub">Let’s connect — email or find me here.</p>
+
+        <div class="contact-icons" aria-label="Contact links">
+          <!-- Email -->
+          <a
+            class="icon-btn"
+            href="mailto:rycahill11@gmail.com"
+            aria-label="Email"
+          >
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.7"
+            >
+              <path d="M4 4h16v16H4z" />
+              <path d="m4 7 8 6 8-6" />
+            </svg>
+          </a>
+
+          <!-- GitHub -->
+          <a
+            class="icon-btn"
+            href="https://github.com/ryguy51104"
+            target="_blank"
+            rel="noopener"
+            aria-label="GitHub"
+          >
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 2C6.48 2 2 6.58 2 12.26c0 4.52 2.87 8.35 6.84 9.7.5.1.68-.22.68-.48
+               0-.24-.01-.88-.01-1.72-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.1-1.49-1.1-1.49
+               -.9-.64.07-.63.07-.63 1 .07 1.52 1.06 1.52 1.06.9 1.57 2.36 1.12 2.94.86
+               .09-.67.35-1.12.63-1.38-2.22-.26-4.56-1.15-4.56-5.12 0-1.13.39-2.06 1.03-2.78
+               -.1-.26-.45-1.32.1-2.76 0 0 .84-.27 2.75 1.06.8-.23 1.66-.34 2.51-.34
+               .85 0 1.71.12 2.51.34 1.9-1.33 2.74-1.06 2.74-1.06.56 1.44.21 2.5.1 2.76
+               .64.72 1.03 1.65 1.03 2.78 0 3.98-2.34 4.86-4.57 5.12.36.32.68.95.68 1.92
+               0 1.38-.01 2.49-.01 2.83 0 .26.18.58.69.48A10.03 10.03 0 0 0 22 12.26
+               C22 6.58 17.52 2 12 2z"
+              />
+            </svg>
+          </a>
+
+          <!-- LinkedIn -->
+          <a
+            class="icon-btn"
+            href="https://www.linkedin.com/in/ryan-cahill-b59482292/"
+            target="_blank"
+            rel="noopener"
+            aria-label="LinkedIn"
+          >
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM0 8h5v16H0zM8 8h4.8v2.2h.1c.7-1.2 2.4-2.5 4.9-2.5 5.2 0 6.2 3.4 6.2 7.8V24h-5V16.3c0-1.8 0-4.1-2.5-4.1-2.5 0-2.9 2-2.9 4v7.8H8V8z"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- JS -->
+    <script src="js/main.js" defer></script>
+  </body>
+</html>
